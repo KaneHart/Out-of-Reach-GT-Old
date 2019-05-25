@@ -49,3 +49,12 @@ recipes.remove(<enderio:block_cap_bank:2>);
 mods.jei.JEI.hide(<enderio:block_cap_bank:2>);
 recipes.remove(<enderio:block_cap_bank:1>);
 mods.jei.JEI.hide(<enderio:block_cap_bank:1>);
+
+recipes.remove(<enderio:block_infinity:2>);
+mods.jei.JEI.hide(<enderio:block_infinity:2>);
+recipes.remove(<enderio:block_infinity:1>);
+mods.jei.JEI.hide(<enderio:block_infinity:1>);
+recipes.remove(<enderio:block_infinity>);
+mods.jei.JEI.hide(<enderio:block_infinity>);
+recipes.remove(<enderio:item_material:20>);
+mods.jei.JEI.hide(<enderio:item_material:20>);
