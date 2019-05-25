@@ -3,6 +3,7 @@
 import mods.gregtech.recipe.RecipeMap;
 
 val forming_press = RecipeMap.getByName("forming_press");
+val chemReactor = RecipeMap.getByName("chemReactor");
 
 //removed Doge Coin
 forming_press.findRecipe(16, [<metaitem:shape.mold.credit>, <ore:plateBrass>.firstItem], null).remove();
@@ -37,3 +38,11 @@ recipes.remove(<metaitem:credit.cupronickel>);
 mods.jei.JEI.hide(<metaitem:credit.cupronickel>);
 recipes.remove(<metaitem:credit.copper>);
 mods.jei.JEI.hide(<metaitem:credit.copper>);
+
+//My attempt to do fun recipe to get rubber but it does not work....
+//chemReactor.recipeBuilder()
+//	.inputs(<ore:slimeball>.firstItem, <ore:cropMaplesyrup>.firstItem)
+//  .outputs(<metaitem:rubber_drop>)
+//    .duration(600)
+//    .EUt(30)
+//    .buildAndRegister();
