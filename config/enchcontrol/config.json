@@ -1,4 +1,5 @@
 {
+  "version": "1.1.4:beta:0",
   "main": {
     "external_config": true,
     "debug_mode": true,
@@ -27,6 +28,6 @@
   "mod_support": {
     "load_enchantment_descriptions_desc": true,
     "upload_desc_to_enchantment_descriptions": false,
-    "thermal_expansion": true
+    "thermal_expansion": false
   }
 }
