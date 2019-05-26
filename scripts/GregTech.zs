@@ -39,10 +39,6 @@ mods.jei.JEI.hide(<metaitem:credit.cupronickel>);
 recipes.remove(<metaitem:credit.copper>);
 mods.jei.JEI.hide(<metaitem:credit.copper>);
 
-//My attempt to do fun recipe to get rubber but it does not work....
-//chemReactor.recipeBuilder()
-//	.inputs(<ore:slimeball>.firstItem, <ore:cropMaplesyrup>.firstItem)
-//  .outputs(<metaitem:rubber_drop>)
-//    .duration(600)
-//    .EUt(30)
-//    .buildAndRegister();
+//Remove Magic Energy Absorber
+recipes.remove(<metaitem:gregtech:machine:493>);
+mods.jei.JEI.hide(<metaitem:gregtech:machine:493>);
