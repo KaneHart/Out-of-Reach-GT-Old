@@ -46,10 +46,15 @@ mods.jei.JEI.hide(<gregtech:machine:493>);
 
 //Removed Annoying Chests I dislike
 recipes.remove(<gregtech:machine:806>);
+mods.jei.JEI.hide(<gregtech:machine:806>);
 recipes.remove(<gregtech:machine:805>);
+mods.jei.JEI.hide(<gregtech:machine:805>);
 recipes.remove(<gregtech:machine:804>);
+mods.jei.JEI.hide(<gregtech:machine:804>);
 recipes.remove(<gregtech:machine:803>);
+mods.jei.JEI.hide(<gregtech:machine:803>);
 recipes.remove(<gregtech:machine:802>);
+mods.jei.JEI.hide(<gregtech:machine:802>);
 
 //added steel anvil gt machine recipe
 solidifier.recipeBuilder()
