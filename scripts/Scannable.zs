@@ -1,8 +1,14 @@
 //Removed modules not needed...
 recipes.remove(<scannable:module_monster>);
+mods.jei.JEI.hide(<scannable:module_monster>);
 recipes.remove(<scannable:module_ore_common>);
+mods.jei.JEI.hide(<scannable:module_ore_common>);
 recipes.remove(<scannable:module_structure>);
+mods.jei.JEI.hide(<scannable:module_structure>);
 recipes.remove(<scannable:module_entity>);
+mods.jei.JEI.hide(<scannable:module_entity>);
+recipes.remove(<scannable:module_animal>);
+mods.jei.JEI.hide(<scannable:module_animal>);
 
 //Scanner LV
 recipes.remove(<scannable:scanner>);
@@ -16,3 +22,14 @@ recipes.addShaped(<scannable:module_blank>, [[<ore:plateSteel>, <ore:dyeGreen>, 
 recipes.remove(<scannable:module_ore_rare>);
 recipes.addShaped(<scannable:module_ore_rare>, [[<scannable:module_blank>, <ore:gemDiamond>, null],[<ore:circuitAdvanced>, null, null], [null, null, null]]);
 
+//Block Scanner IV
+recipes.remove(<scannable:module_block>);
+recipes.addShaped(<scannable:module_block>, [[<scannable:module_blank>, <gregtech:meta_item_1:12235>, null],[<gregtech:meta_item_2:32495>, null, null], [null, null, null]]);
+
+//range LV
+recipes.remove(<scannable:module_range>);
+recipes.addShaped(<scannable:module_range>, [[<scannable:module_blank>, <minecraft:ender_pearl>, null],[<ore:circuitBasic>, null, null], [null, null, null]]);
+
+//fluids LV
+recipes.remove(<scannable:module_fluid>);
+recipes.addShaped(<scannable:module_fluid>, [[<scannable:module_blank>, <minecraft:water_bucket>, null],[<ore:circuitBasic>, null, null], [null, null, null]]);
