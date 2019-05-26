@@ -58,3 +58,9 @@ recipes.remove(<enderio:block_infinity>);
 mods.jei.JEI.hide(<enderio:block_infinity>);
 recipes.remove(<enderio:item_material:20>);
 mods.jei.JEI.hide(<enderio:item_material:20>);
+
+//Remove some dusts getting into GT...
+recipes.remove(<enderio:item_material:29>);
+mods.jei.JEI.hide(<enderio:item_material:29>);
+recipes.remove(<enderio:item_material:32>);
+mods.jei.JEI.hide(<enderio:item_material:32>);
