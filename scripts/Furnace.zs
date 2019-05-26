@@ -64,3 +64,11 @@ furnace.remove(<gregtech:meta_item_1:8128>);
 furnace.remove(<gregtech:meta_item_1:8103>);
 furnace.remove(<gregtech:meta_item_1:8157>);
 furnace.remove(<gregtech:meta_item_1:8206>);
+furnace.remove(<gregtech:meta_item_1:8281>);
+
+//Quartz like stuff
+furnace.remove(<gregtech:meta_item_1:8203>);
+furnace.remove(<minecraft:quartz>);
+furnace.remove(<gregtech:meta_item_1:8202>);
+
+
