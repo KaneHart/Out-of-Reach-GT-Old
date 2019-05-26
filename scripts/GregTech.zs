@@ -42,3 +42,10 @@ mods.jei.JEI.hide(<metaitem:credit.copper>);
 //Remove Magic Energy Absorber
 recipes.remove(<gregtech:machine:493>);
 mods.jei.JEI.hide(<gregtech:machine:493>);
+
+//Removed Annoying Chests I dislike
+recipes.remove(<gregtech:machine:806>);
+recipes.remove(<gregtech:machine:805>);
+recipes.remove(<gregtech:machine:804>);
+recipes.remove(<gregtech:machine:803>);
+recipes.remove(<gregtech:machine:802>);
