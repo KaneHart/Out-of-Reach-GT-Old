@@ -4,6 +4,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 val forming_press = RecipeMap.getByName("forming_press");
 val chemReactor = RecipeMap.getByName("chemReactor");
+val solidifier = RecipeMap.getByName("fluid_solidifier");
 
 //removed Doge Coin
 forming_press.findRecipe(16, [<metaitem:shape.mold.credit>, <ore:plateBrass>.firstItem], null).remove();
@@ -49,3 +50,12 @@ recipes.remove(<gregtech:machine:805>);
 recipes.remove(<gregtech:machine:804>);
 recipes.remove(<gregtech:machine:803>);
 recipes.remove(<gregtech:machine:802>);
+
+//added steel anvil gt machine recipe
+solidifier.recipeBuilder()
+    .fluidInputs([<liquid:steel> * 4464])
+	.notConsumable(<metaitem:shape.mold.anvil>)
+	.outputs(<railcraft:anvil>)
+	.duration(256)
+	.EUt(48)
+	.buildAndRegister();
