@@ -1,8 +1,6 @@
 //Removed modules not needed...
 recipes.remove(<scannable:module_monster>);
 mods.jei.JEI.hide(<scannable:module_monster>);
-recipes.remove(<scannable:module_ore_common>);
-mods.jei.JEI.hide(<scannable:module_ore_common>);
 recipes.remove(<scannable:module_structure>);
 mods.jei.JEI.hide(<scannable:module_structure>);
 recipes.remove(<scannable:module_entity>);
@@ -33,3 +31,8 @@ recipes.addShaped(<scannable:module_range>, [[<scannable:module_blank>, <minecra
 //fluids LV
 recipes.remove(<scannable:module_fluid>);
 recipes.addShaped(<scannable:module_fluid>, [[<scannable:module_blank>, <minecraft:water_bucket>, null],[<ore:circuitBasic>, null, null], [null, null, null]]);
+
+//common ores LV
+recipes.remove(<scannable:module_ore_common>);
+recipes.addShaped(<scannable:module_ore_common>, [[<scannable:module_blank>, <minecraft:coal>, null],[<gregtech:meta_item_2:32487>, null, null], [null, null, null]]);
+
