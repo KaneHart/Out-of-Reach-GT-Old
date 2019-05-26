@@ -40,5 +40,5 @@ recipes.remove(<metaitem:credit.copper>);
 mods.jei.JEI.hide(<metaitem:credit.copper>);
 
 //Remove Magic Energy Absorber
-recipes.remove(<metaitem:gregtech:machine:493>);
-mods.jei.JEI.hide(<metaitem:gregtech:machine:493>);
+recipes.remove(<gregtech:machine:493>);
+mods.jei.JEI.hide(<gregtech:machine:493>);
