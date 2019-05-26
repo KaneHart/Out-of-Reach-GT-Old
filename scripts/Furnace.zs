@@ -40,3 +40,27 @@ furnace.remove(<gregtech:meta_item_1:2286>);
 furnace.remove(<appliedenergistics2:material:49>);
 furnace.remove(<gregtech:meta_item_1:2065>);
 furnace.remove(<minecraft:redstone>);
+
+//Gems, Diamonds, Lapis, etc
+furnace.remove(<gregtech:meta_item_1:8161>);
+furnace.remove(<gregtech:meta_item_1:8122>);
+furnace.remove(<gregtech:meta_item_1:8247>);
+furnace.remove(<gregtech:meta_item_1:8117>);
+furnace.remove(<gregtech:meta_item_1:8243>);
+furnace.remove(<gregtech:meta_item_1:8092>);
+furnace.remove(<gregtech:meta_item_1:8212>);
+furnace.remove(<minecraft:emerald>);
+furnace.remove(<gregtech:meta_item_1:8213>);
+furnace.remove(<minecraft:diamond>);
+furnace.remove(<gregtech:meta_item_1:8085>);
+furnace.remove(<gregtech:meta_item_1:8214>);
+furnace.remove(<minecraft:dye:4>);
+furnace.remove(<gregtech:meta_item_1:8190>);
+furnace.remove(<gregtech:meta_item_1:8244>);
+furnace.remove(<gregtech:meta_item_1:8154>);
+furnace.remove(<gregtech:meta_item_1:8187>);
+furnace.remove(<gregtech:meta_item_1:8226>);
+furnace.remove(<gregtech:meta_item_1:8128>);
+furnace.remove(<gregtech:meta_item_1:8103>);
+furnace.remove(<gregtech:meta_item_1:8157>);
+furnace.remove(<gregtech:meta_item_1:8206>);
