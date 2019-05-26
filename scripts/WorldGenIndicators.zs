@@ -3,6 +3,12 @@ import mods.worldgenindicators.WorldGenManager;
 import mods.worldgenindicators.SurfaceIndicator;
 import crafttweaker.block.IBlock;
 
+var coalOre = <gregtech:ore_coal_0:0>.asBlock();
+var coalsample = <geolosys:ore_sample_vanilla:0>.asBlock();
+var coalsurfaceIndicator = SurfaceIndicator.create().add(coalsample);
+var coalblockChecker = BlockChecker.create(0.01).addValid(coalOre).addIndicator(coalsurfaceIndicator);
+WorldGenManager.addChecker(coalblockChecker);
+
 var ironOre = <gregtech:ore_iron_0:0>.asBlock();
 var ironsample = <geolosys:ore_sample:0>.asBlock();
 var ironsurfaceIndicator = SurfaceIndicator.create().add(ironsample);
@@ -22,7 +28,13 @@ var copperblockChecker = BlockChecker.create(0.01).addValid(copperOre).addIndica
 WorldGenManager.addChecker(copperblockChecker);
 
 var tinOre = <gregtech:ore_tin_0:0>.asBlock();
-var tinsample = <geolosys:ore_sample:8>.asBlock();
+var tinsample = <geolosys:ore_sample:4>.asBlock();
 var tinsurfaceIndicator = SurfaceIndicator.create().add(tinsample);
 var tinblockChecker = BlockChecker.create(0.01).addValid(tinOre).addIndicator(tinsurfaceIndicator);
 WorldGenManager.addChecker(tinblockChecker);
+
+var redstoneOre = <gregtech:ore_redstone_0:0>.asBlock();
+var redstonesample = <geolosys:ore_sample_vanilla:1>.asBlock();
+var redstonesurfaceIndicator = SurfaceIndicator.create().add(redstonesample);
+var redstoneblockChecker = BlockChecker.create(0.01).addValid(redstoneOre).addIndicator(redstonesurfaceIndicator);
+WorldGenManager.addChecker(redstoneblockChecker);
