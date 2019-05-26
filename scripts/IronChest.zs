@@ -1,3 +1,23 @@
+//Iron Chest Plate Revamp
+//recipes removed
+recipes.remove(<ironchest:iron_chest:6>);
+recipes.remove(<ironchest:iron_chest:2>);
+recipes.remove(<ironchest:iron_chest:4>);
+recipes.remove(<ironchest:iron_chest:1>);
+recipes.remove(<ironchest:iron_chest:3>);
+recipes.remove(<ironchest:iron_chest>);
+//recipes added
+recipes.addShaped(<ironchest:iron_chest:6>, [[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>],[<ore:obsidian>, <ironchest:iron_chest:2>, <ore:obsidian>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+recipes.addShaped(<ironchest:iron_chest:2>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],[<ore:plateDiamond>, <ironchest:iron_chest:1>, <ore:plateDiamond>], [<ore:blockGlassColorless>, <ore:plateDiamond>, <ore:blockGlassColorless>]]);
+recipes.addShaped(<ironchest:iron_chest:2>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],[<ore:plateDiamond>, <ironchest:iron_chest:4>, <ore:plateDiamond>], [<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>]]);
+recipes.addShaped(<ironchest:iron_chest:4>, [[<ore:plateSilver>, <ore:blockGlassColorless>, <ore:plateSilver>],[<ore:blockGlassColorless>, <ironchest:iron_chest>, <ore:blockGlassColorless>], [<ore:plateSilver>, <ore:blockGlassColorless>, <ore:plateSilver>]]);
+recipes.addShaped(<ironchest:iron_chest:4>, [[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>],[<ore:plateSilver>, <ironchest:iron_chest:3>, <ore:plateSilver>], [<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
+recipes.addShaped(<ironchest:iron_chest:1>, [[<ore:plateGold>, <ore:blockGlassColorless>, <ore:plateGold>],[<ore:blockGlassColorless>, <ironchest:iron_chest:4>, <ore:blockGlassColorless>], [<ore:plateGold>, <ore:blockGlassColorless>, <ore:plateGold>]]);
+recipes.addShaped(<ironchest:iron_chest:1>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <ironchest:iron_chest>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+recipes.addShaped(<ironchest:iron_chest:3>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],[<ore:plateCopper>, <ore:chest>, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+recipes.addShaped(<ironchest:iron_chest>, [[<ore:plateIron>, <ore:blockGlassColorless>, <ore:plateIron>],[<ore:blockGlassColorless>, <ironchest:iron_chest:3>, <ore:blockGlassColorless>], [<ore:plateIron>, <ore:blockGlassColorless>, <ore:plateIron>]]);
+recipes.addShaped(<ironchest:iron_chest>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plateIron>, <ore:chest>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
 //removed the stupid skulker stuff from in game.
 recipes.remove(<ironchest:diamond_obsidian_shulker_upgrade>);
 recipes.remove(<ironchest:vanilla_copper_shulker_upgrade>);
