@@ -21,6 +21,8 @@ recipes.remove(<openmodularturrets:addon_meta:2>);
 mods.jei.JEI.hide(<openmodularturrets:addon_meta:2>);
 recipes.remove(<openmodularturrets:addon_meta:4>);
 mods.jei.JEI.hide(<openmodularturrets:addon_meta:4>);
+recipes.remove(<openmodularturrets:addon_meta:3>);
+mods.jei.JEI.hide(<openmodularturrets:addon_meta:3>);
 
 //more junk removed
 recipes.remove(<openmodularturrets:lever_block>);
@@ -192,7 +194,7 @@ recipes.addShaped(<openmodularturrets:addon_meta:7>, [[<ore:plateStainlessSteel>
 
 //Addon - Serial Port
 recipes.remove(<openmodularturrets:addon_meta:5>);
-recipes.addShaped(<openmodularturrets:addon_meta:5>, [[null, <opencomputers:cable:11250603>, null],[<openmodularturrets:intermediate_regular>, <opencomputers:cable:11250603>, <openmodularturrets:intermediate_regular>], [null, <opencomputers:cable:11250603>, null]]);
+recipes.addShaped(<openmodularturrets:addon_meta:5>, [[null, <ore:oc:cable>, null],[<openmodularturrets:intermediate_regular>, <ore:oc:cable>, <openmodularturrets:intermediate_regular>], [null, <ore:oc:cable>, null]]);
 
 //Upgrade - Aim
 recipes.remove(<openmodularturrets:upgrade_meta>);
