@@ -112,11 +112,37 @@ recipes.addShaped(<openmodularturrets:laser_turret>, [[null, <openmodularturrets
 recipes.remove(<openmodularturrets:rail_gun_turret>);
 recipes.addShaped(<openmodularturrets:rail_gun_turret>, [[<ore:plateTitanium>, <openmodularturrets:intermediate_tiered:14>, <ore:plateTitanium>],[<ore:plateTitanium>, <openmodularturrets:intermediate_tiered:14>, <ore:plateTitanium>], [<openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered:9>, <openmodularturrets:intermediate_regular>]]);
 
+//Base Inventory Expander Tier 2
+recipes.remove(<openmodularturrets:expander:1>);
+recipes.addShaped(<openmodularturrets:expander:1>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<openmodularturrets:intermediate_regular>, <ironchest:iron_chest>, <openmodularturrets:intermediate_regular>], [<ore:plateSteel>, <openmodularturrets:intermediate_regular>, <ore:plateSteel>]]);
 
+//Base Inventory Expander Tier 3
+recipes.remove(<openmodularturrets:expander:2>);
+recipes.addShaped(<openmodularturrets:expander:2>, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],[<openmodularturrets:intermediate_regular>, <ironchest:iron_chest:1>, <openmodularturrets:intermediate_regular>], [<ore:plateAluminium>, <openmodularturrets:intermediate_regular>, <ore:plateAluminium>]]);
 
+//Base Inventory Expander Tier 4
+recipes.remove(<openmodularturrets:expander:3>);
+recipes.addShaped(<openmodularturrets:expander:3>, [[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>],[<openmodularturrets:intermediate_regular>, <ironchest:iron_chest:2>, <openmodularturrets:intermediate_regular>], [<ore:plateStainlessSteel>, <openmodularturrets:intermediate_regular>, <ore:plateStainlessSteel>]]);
 
+//Base Inventory Expander Tier 5
+recipes.remove(<openmodularturrets:expander:4>);
+recipes.addShaped(<openmodularturrets:expander:4>, [[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>],[<openmodularturrets:intermediate_regular>, <ironchest:iron_chest:6>, <openmodularturrets:intermediate_regular>], [<ore:plateTitanium>, <openmodularturrets:intermediate_regular>, <ore:plateTitanium>]]);
 
+//Base Power Expander Tier 2
+recipes.remove(<openmodularturrets:expander:6>);
+recipes.addShaped(<openmodularturrets:expander:6>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<openmodularturrets:intermediate_regular>, <gregtech:machine:10660>, <openmodularturrets:intermediate_regular>], [<ore:plateSteel>, <openmodularturrets:intermediate_regular>, <ore:plateSteel>]]);
 
+//Base Power Expander Tier 3
+recipes.remove(<openmodularturrets:expander:7>);
+recipes.addShaped(<openmodularturrets:expander:7>, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],[<openmodularturrets:intermediate_regular>, <gregtech:machine:10668>, <openmodularturrets:intermediate_regular>], [<ore:plateAluminium>, <openmodularturrets:intermediate_regular>, <ore:plateAluminium>]]);
+
+//Base Power Expander Tier 4
+recipes.remove(<openmodularturrets:expander:8>);
+recipes.addShaped(<openmodularturrets:expander:8>, [[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>],[<openmodularturrets:intermediate_regular>, <gregtech:machine:10676>, <openmodularturrets:intermediate_regular>], [<ore:plateStainlessSteel>, <openmodularturrets:intermediate_regular>, <ore:plateStainlessSteel>]]);
+
+//Base Power Expander Tier 5
+recipes.remove(<openmodularturrets:expander:9>);
+recipes.addShaped(<openmodularturrets:expander:9>, [[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>],[<openmodularturrets:intermediate_regular>, <gregtech:machine:10684>, <openmodularturrets:intermediate_regular>], [<ore:plateTitanium>, <openmodularturrets:intermediate_regular>, <ore:plateTitanium>]]);
 
 
 
