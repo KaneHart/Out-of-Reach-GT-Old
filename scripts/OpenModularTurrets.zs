@@ -15,6 +15,12 @@ recipes.remove(<openmodularturrets:usable_meta:1>);
 mods.jei.JEI.hide(<openmodularturrets:usable_meta:1>);
 recipes.remove(<openmodularturrets:usable_meta>);
 mods.jei.JEI.hide(<openmodularturrets:usable_meta>);
+recipes.remove(<openmodularturrets:addon_meta:6>);
+mods.jei.JEI.hide(<openmodularturrets:addon_meta:6>);
+recipes.remove(<openmodularturrets:addon_meta:2>);
+mods.jei.JEI.hide(<openmodularturrets:addon_meta:2>);
+recipes.remove(<openmodularturrets:addon_meta:4>);
+mods.jei.JEI.hide(<openmodularturrets:addon_meta:4>);
 
 //more junk removed
 recipes.remove(<openmodularturrets:lever_block>);
@@ -172,6 +178,42 @@ recipes.addShaped(<openmodularturrets:ammo_meta:4> * 32, [[null, <ore:plateStain
 recipes.remove(<openmodularturrets:ammo_meta:2>);
 recipes.addShaped(<openmodularturrets:ammo_meta:2> * 16, [[<ore:boltSteelMagnetic>, <ore:boltTitanium>, <ore:boltSteelMagnetic>],[<ore:boltTitanium>, <ore:ringTitanium>, <ore:boltTitanium>], [<ore:boltSteelMagnetic>, <ore:boltTitanium>, <ore:boltSteelMagnetic>]]);
 
+//Addon - Turret Concealer
+recipes.remove(<openmodularturrets:addon_meta>);
+recipes.addShaped(<openmodularturrets:addon_meta>, [[<ore:plateSteel>, <ore:blockGlassColorless>, <ore:plateSteel>],[<ore:blockGlassColorless>, <ironchest:iron_chest>, <openmodularturrets:intermediate_regular>], [<ore:plateSteel>, <ore:blockGlassColorless>, <ore:plateSteel>]]);
 
+//Addon - Damage Boost
+recipes.remove(<openmodularturrets:addon_meta:1>);
+recipes.addShaped(<openmodularturrets:addon_meta:1>, [[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],[<minecraft:ender_eye>, <minecraft:tnt>, <minecraft:ender_eye>], [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
 
+//Addon - Fake Drops
+recipes.remove(<openmodularturrets:addon_meta:7>);
+recipes.addShaped(<openmodularturrets:addon_meta:7>, [[<ore:plateStainlessSteel>, <ore:itemSkull>, <ore:plateStainlessSteel>],[<ore:itemSkull>, <minecraft:ender_eye>, <openmodularturrets:intermediate_regular>], [<ore:plateStainlessSteel>, <ore:itemSkull>, <ore:plateStainlessSteel>]]);
 
+//Addon - Serial Port
+recipes.remove(<openmodularturrets:addon_meta:5>);
+recipes.addShaped(<openmodularturrets:addon_meta:5>, [[null, <opencomputers:cable:11250603>, null],[<openmodularturrets:intermediate_regular>, <opencomputers:cable:11250603>, <openmodularturrets:intermediate_regular>], [null, <opencomputers:cable:11250603>, null]]);
+
+//Upgrade - Aim
+recipes.remove(<openmodularturrets:upgrade_meta>);
+recipes.addShaped(<openmodularturrets:upgrade_meta>, [[<ore:plateAluminium>, null, <ore:plateAluminium>],[null, <ore:ringAluminium>, null], [<ore:plateAluminium>, <openmodularturrets:intermediate_regular>, <ore:plateAluminium>]]);
+
+//Upgrade - Efficiency
+recipes.remove(<openmodularturrets:upgrade_meta:1>);
+recipes.addShaped(<openmodularturrets:upgrade_meta:1>, [[null, <ore:plateAluminium>, null],[<ore:plateAluminium>, <minecraft:ender_eye>, <ore:plateAluminium>], [null, <openmodularturrets:intermediate_regular>, null]]);
+
+//Upgrade - Fire Rate
+recipes.remove(<openmodularturrets:upgrade_meta:2>);
+recipes.addShaped(<openmodularturrets:upgrade_meta:2>, [[null, <ore:plateAluminium>, null],[<ore:plateAluminium>, <gregtech:meta_item_1:32601>, <ore:plateAluminium>], [null, <openmodularturrets:intermediate_regular>, null]]);
+
+//Upgrade - Range
+recipes.remove(<openmodularturrets:upgrade_meta:3>);
+recipes.addShaped(<openmodularturrets:upgrade_meta:3>, [[null, <ore:plateAluminium>, null],[<ore:plateAluminium>, <gregtech:meta_item_1:32691>, <ore:plateAluminium>], [null, <openmodularturrets:intermediate_regular>, null]]);
+
+//Upgrade - Scattershot
+recipes.remove(<openmodularturrets:upgrade_meta:4>);
+recipes.addShaped(<openmodularturrets:upgrade_meta:4>, [[null, <ore:plateAluminium>, null],[<ore:plateAluminium>, <openmodularturrets:intermediate_tiered:12>, <ore:plateAluminium>], [null, <openmodularturrets:intermediate_regular>, null]]);
+
+//Turret Memory Card
+recipes.remove(<openmodularturrets:usable_meta:2>);
+recipes.addShaped(<openmodularturrets:usable_meta:2>, [[<ore:plateSteel>, <minecraft:book>, <ore:plateSteel>],[<minecraft:book>, <ore:circuitBasic>, <minecraft:book>], [<ore:plateSteel>, <minecraft:book>, <ore:plateSteel>]]);
