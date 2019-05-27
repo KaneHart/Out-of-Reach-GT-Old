@@ -102,3 +102,52 @@ forming_press.recipeBuilder()
     .buildAndRegister();
 
 
+//H.S. Rail
+//remove old hand crafting one:
+recipes.remove(<railcraft:rail:3>);
+
+//GT Versions with Better Yeild Per Tier. Iron / Steel are Shared in Tier 1
+forming_press.recipeBuilder()
+    .inputs(<ore:ingotSteel> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
+    .notConsumable(<contenttweaker:railshape>)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .outputs(<railcraft:rail:3> * 8)
+    .EUt(32)
+    .duration(600)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<ore:ingotAluminium> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
+    .notConsumable(<contenttweaker:railshape>)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .outputs(<railcraft:rail:3> * 12)
+    .EUt(64)
+    .duration(600)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<ore:ingotStainlessSteel> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
+    .notConsumable(<contenttweaker:railshape>)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .outputs(<railcraft:rail:3> * 18)
+    .EUt(128)
+    .duration(600)
+    .buildAndRegister();
+    
+forming_press.recipeBuilder()
+    .inputs(<ore:ingotTitanium> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
+    .notConsumable(<contenttweaker:railshape>)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .outputs(<railcraft:rail:3> * 32)
+    .EUt(512)
+    .duration(600)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<ore:ingotTungstenSteel> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
+    .notConsumable(<contenttweaker:railshape>)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .outputs(<railcraft:rail:3> * 48)
+    .EUt(2048)
+    .duration(600)
+    .buildAndRegister();
