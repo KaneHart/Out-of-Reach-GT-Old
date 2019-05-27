@@ -108,5 +108,24 @@ recipes.addShaped(<stevescarts:cartmodule:81>, [[<stevescarts:modulecomponents:4
 recipes.remove(<stevescarts:cartmodule:8>);
 recipes.addShaped(<stevescarts:cartmodule:8>, [[<ore:ingotSteel>, <minecraft:diamond>, null],[null, <ore:ingotSteel>, <minecraft:diamond>], [<ore:ingotSteel>, <minecraft:diamond>, null]]);
 
+//Solar Panel
+recipes.remove(<stevescarts:modulecomponents:44>);
+recipes.addShaped(<stevescarts:modulecomponents:44>, [[<ore:plateSteel>, <ore:blockGlassColorless>, <ore:plateSteel>],[<ore:blockGlassColorless>, <gregtech:meta_item_1:32751>, <ore:blockGlassColorless>], [<ore:plateSteel>, <ore:blockGlassColorless>, <ore:plateSteel>]]);
+
+//Advance Solar Panel
+recipes.remove(<stevescarts:modulecomponents:58>);
+recipes.addShaped(<stevescarts:modulecomponents:58>, [[<stevescarts:modulecomponents:44>, <ore:plateSteel>, <stevescarts:modulecomponents:44>],[<stevescarts:modulecomponents:9>, <stevescarts:modulecomponents:44>, <stevescarts:modulecomponents:9>], [<stevescarts:modulecomponents:44>, <ore:plateSteel>, <stevescarts:modulecomponents:44>]]);
+
+//Basic Solar Engine
+recipes.remove(<stevescarts:cartmodule:45>);
+recipes.addShaped(<stevescarts:cartmodule:45>, [[<stevescarts:modulecomponents:44>, <stevescarts:modulecomponents:44>, <stevescarts:modulecomponents:44>],[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<stevescarts:modulecomponents:9>, <ore:craftingPiston>, <stevescarts:modulecomponents:9>]]);
+
+//Solar Engine
+recipes.remove(<stevescarts:cartmodule:1>);
+recipes.addShaped(<stevescarts:cartmodule:1>, [[<stevescarts:modulecomponents:44>, <stevescarts:modulecomponents:44>, <stevescarts:modulecomponents:44>],[<stevescarts:modulecomponents:44>, <stevescarts:modulecomponents:16>, <stevescarts:modulecomponents:44>], [<ore:plateSteel>, <ore:craftingPiston>, <ore:plateSteel>]]);
+
+//Compact Solar Engine
+recipes.remove(<stevescarts:cartmodule:56>);
+recipes.addShaped(<stevescarts:cartmodule:56>, [[<stevescarts:modulecomponents:58>, <stevescarts:modulecomponents:58>, <stevescarts:modulecomponents:58>],[<stevescarts:modulecomponents:16>, <ore:plateSteel>, <stevescarts:modulecomponents:16>], [<ore:plateSteel>, <ore:craftingPiston>, <ore:plateSteel>]]);
 
 
