@@ -5,6 +5,7 @@ import mods.gregtech.recipe.RecipeMap;
 val forming_press = RecipeMap.getByName("forming_press");
 val chemReactor = RecipeMap.getByName("chemReactor");
 val solidifier = RecipeMap.getByName("fluid_solidifier");
+val assembler = RecipeMap.getByName("assembler");
 
 //removed Doge Coin
 forming_press.findRecipe(16, [<metaitem:shape.mold.credit>, <ore:plateBrass>.firstItem], null).remove();
@@ -63,4 +64,58 @@ solidifier.recipeBuilder()
 	.outputs(<railcraft:anvil>)
 	.duration(256)
 	.EUt(48)
+	.buildAndRegister();
+	
+//Boat Oak
+assembler.recipeBuilder()
+	.inputs([<minecraft:planks> * 8, <ore:screwIron> * 4])
+	.fluidInputs([<liquid:creosote> * 100])
+	.outputs(<minecraft:boat>)
+	.EUt(16)
+	.duration(160)
+	.buildAndRegister();
+
+//Boat Spruce
+assembler.recipeBuilder()
+	.inputs([<minecraft:planks:1> * 8, <ore:screwIron> * 4])
+	.fluidInputs([<liquid:creosote> * 100])
+	.outputs(<minecraft:spruce_boat>)
+	.EUt(16)
+	.duration(160)
+	.buildAndRegister();
+
+//Boat Birch
+assembler.recipeBuilder()
+	.inputs([<minecraft:planks:2> * 8, <ore:screwIron> * 4])
+	.fluidInputs([<liquid:creosote> * 100])
+	.outputs(<minecraft:birch_boat>)
+	.EUt(16)
+	.duration(160)
+	.buildAndRegister();
+
+//Boat Jungle
+assembler.recipeBuilder()
+	.inputs([<minecraft:planks:3> * 8, <ore:screwIron> * 4])
+	.fluidInputs([<liquid:creosote> * 100])
+	.outputs(<minecraft:jungle_boat>)
+	.EUt(16)
+	.duration(160)
+	.buildAndRegister();
+
+//Boat Acacia
+assembler.recipeBuilder()
+	.inputs([<minecraft:planks:4> * 8, <ore:screwIron> * 4])
+	.fluidInputs([<liquid:creosote> * 100])
+	.outputs(<minecraft:acacia_boat>)
+	.EUt(16)
+	.duration(160)
+	.buildAndRegister();
+
+//Boat Dark Oak
+assembler.recipeBuilder()
+	.inputs([<minecraft:planks:5> * 8, <ore:screwIron> * 4])
+	.fluidInputs([<liquid:creosote> * 100])
+	.outputs(<minecraft:dark_oak_boat>)
+	.EUt(16)
+	.duration(160)
 	.buildAndRegister();
