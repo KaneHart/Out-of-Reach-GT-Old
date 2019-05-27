@@ -11,6 +11,10 @@ recipes.remove(<openmodularturrets:expander>);
 mods.jei.JEI.hide(<openmodularturrets:expander>);
 recipes.remove(<openmodularturrets:expander:5>);
 mods.jei.JEI.hide(<openmodularturrets:expander:5>);
+recipes.remove(<openmodularturrets:usable_meta:1>);
+mods.jei.JEI.hide(<openmodularturrets:usable_meta:1>);
+recipes.remove(<openmodularturrets:usable_meta>);
+mods.jei.JEI.hide(<openmodularturrets:usable_meta>);
 
 //more junk removed
 recipes.remove(<openmodularturrets:lever_block>);
@@ -144,8 +148,29 @@ recipes.addShaped(<openmodularturrets:expander:8>, [[<ore:plateStainlessSteel>, 
 recipes.remove(<openmodularturrets:expander:9>);
 recipes.addShaped(<openmodularturrets:expander:9>, [[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>],[<openmodularturrets:intermediate_regular>, <gregtech:machine:10684>, <openmodularturrets:intermediate_regular>], [<ore:plateTitanium>, <openmodularturrets:intermediate_regular>, <ore:plateTitanium>]]);
 
+//Base Addon - Loot Detector
+recipes.remove(<openmodularturrets:base_addon>);
+recipes.addShaped(<openmodularturrets:base_addon>, [[<ore:plateSteel>, null, <ore:plateSteel>],[<openmodularturrets:intermediate_regular>, <trashcansreborn:trashcan>, <openmodularturrets:intermediate_regular>], [<ore:plateSteel>, <openmodularturrets:intermediate_regular>, <ore:plateSteel>]]);
 
+//Ammo - Bullet
+recipes.remove(<openmodularturrets:ammo_meta:1>);
+recipes.addShaped(<openmodularturrets:ammo_meta:1> * 64, [[null, <ore:plateSteel>, null],[<minecraft:gunpowder>, <minecraft:redstone>, null], [null, <ore:plateSteel>, null]]);
 
+//Ammo - Blazing Clay
+recipes.remove(<openmodularturrets:ammo_meta>);
+recipes.addShaped(<openmodularturrets:ammo_meta> * 32, [[<minecraft:clay_ball>, <minecraft:gunpowder>, <minecraft:clay_ball>],[<minecraft:blaze_powder>, <ore:boltSteel>, <minecraft:blaze_powder>], [<minecraft:clay_ball>, <minecraft:gunpowder>, <minecraft:clay_ball>]]);
+
+//Ammo - Grenade
+recipes.remove(<openmodularturrets:ammo_meta:3>);
+recipes.addShaped(<openmodularturrets:ammo_meta:3> * 32, [[null, <minecraft:redstone>, null],[<ore:plateAluminium>, <minecraft:gunpowder>, <ore:plateAluminium>], [null, <ore:plateAluminium>, null]]);
+
+//Ammo - Rocket
+recipes.remove(<openmodularturrets:ammo_meta:4>);
+recipes.addShaped(<openmodularturrets:ammo_meta:4> * 32, [[null, <ore:plateStainlessSteel>, null],[<ore:plateStainlessSteel>, <minecraft:tnt>, <ore:plateStainlessSteel>], [<ore:plateStainlessSteel>, <minecraft:redstone>, <ore:plateStainlessSteel>]]);
+
+//Ammo - Ferro-Magnetic Slug
+recipes.remove(<openmodularturrets:ammo_meta:2>);
+recipes.addShaped(<openmodularturrets:ammo_meta:2> * 16, [[<ore:boltSteelMagnetic>, <ore:boltTitanium>, <ore:boltSteelMagnetic>],[<ore:boltTitanium>, <ore:ringTitanium>, <ore:boltTitanium>], [<ore:boltSteelMagnetic>, <ore:boltTitanium>, <ore:boltSteelMagnetic>]]);
 
 
 
