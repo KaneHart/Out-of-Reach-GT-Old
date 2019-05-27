@@ -119,3 +119,12 @@ assembler.recipeBuilder()
 	.EUt(16)
 	.duration(160)
 	.buildAndRegister();
+	
+//Saddle
+assembler.recipeBuilder()
+	.inputs([<minecraft:leather> * 3, <ore:screwIron> * 4, <gregtech:meta_item_1:18184> * 2, <minecraft:string> * 3])
+	.fluidInputs([<liquid:glue> * 100])
+	.outputs(<minecraft:saddle>)
+	.EUt(48)
+	.duration(160)
+	.buildAndRegister();
