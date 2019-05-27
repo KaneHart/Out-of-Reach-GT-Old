@@ -22,6 +22,10 @@ mods.jei.JEI.hide(<railcraft:track_kit:2>.withTag({railcraft: {kit: "railcraft_b
 recipes.remove(<minecraft:golden_rail>);
 mods.jei.JEI.hide(<minecraft:golden_rail>);
 
+//remove electric rail
+recipes.remove(<railcraft:rail:5>);
+mods.jei.JEI.hide(<railcraft:rail:5>);
+
 //removed steel anvil recipe. Use GT Machines instead
 recipes.remove(<railcraft:anvil>);
 
