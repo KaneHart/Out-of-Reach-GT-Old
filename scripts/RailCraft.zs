@@ -2,6 +2,26 @@
 import mods.gregtech.recipe.RecipeMap;
 val forming_press = RecipeMap.getByName("forming_press");
 
+//Remove Booster Rails
+recipes.remove(<railcraft:track_outfitted>);
+mods.jei.JEI.hide(<railcraft:track_outfitted>);
+recipes.remove(<railcraft:track_outfitted>);
+mods.jei.JEI.hide(<railcraft:track_outfitted>);
+recipes.remove(<railcraft:track_outfitted>);
+mods.jei.JEI.hide(<railcraft:track_outfitted>);
+recipes.remove(<railcraft:track_outfitted>);
+mods.jei.JEI.hide(<railcraft:track_outfitted>);
+recipes.remove(<railcraft:track_outfitted>);
+mods.jei.JEI.hide(<railcraft:track_outfitted>);
+recipes.remove(<railcraft:track_outfitted>);
+mods.jei.JEI.hide(<railcraft:track_outfitted>);
+recipes.remove(<railcraft:track_outfitted>);
+mods.jei.JEI.hide(<railcraft:track_outfitted>);
+recipes.remove(<railcraft:track_kit:2>);
+mods.jei.JEI.hide(<railcraft:track_kit:2>);
+recipes.remove(<minecraft:golden_rail>);
+mods.jei.JEI.hide(<minecraft:golden_rail>);
+
 //removed steel anvil recipe. Use GT Machines instead
 recipes.remove(<railcraft:anvil>);
 
@@ -63,3 +83,22 @@ forming_press.recipeBuilder()
     .EUt(2048)
     .duration(300)
     .buildAndRegister();
+    
+
+
+
+//Advanced Rail Recipes
+//remove the rail
+recipes.remove(<railcraft:rail:1>);
+
+//add the new recipes
+forming_press.recipeBuilder()
+    .inputs(<ore:ingotGold> * 6, <ore:ingotIron> * 6, <ore:dustRedstone> * 6)
+    .notConsumable(<contenttweaker:railshape>)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
+    .outputs(<railcraft:rail:1> * 8)
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+
