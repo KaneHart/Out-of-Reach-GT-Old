@@ -19,6 +19,14 @@ recipes.remove(<stevescarts:cartmodule:37>);
 mods.jei.JEI.hide(<stevescarts:cartmodule:37>);
 recipes.remove(<stevescarts:modulecomponents>);
 mods.jei.JEI.hide(<stevescarts:modulecomponents>);
+recipes.remove(<stevescarts:upgrade:14>);
+mods.jei.JEI.hide(<stevescarts:upgrade:14>);
+recipes.remove(<stevescarts:modulecomponents:2>);
+mods.jei.JEI.hide(<stevescarts:modulecomponents:2>);
+recipes.remove(<stevescarts:modulecomponents:3>);
+mods.jei.JEI.hide(<stevescarts:modulecomponents:3>);
+recipes.remove(<stevescarts:modulecomponents:4>);
+mods.jei.JEI.hide(<stevescarts:modulecomponents:4>);
 
 //Simple PCB
 recipes.remove(<stevescarts:modulecomponents:9>);
