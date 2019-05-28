@@ -37,6 +37,12 @@ mods.jei.JEI.hide(<minecraft:golden_rail>);
 //add recipe for Forming Press Shape Rail
 recipes.addShaped(<contenttweaker:railshape>, [[<ore:craftingToolWireCutter>, null, <metaitem:shape.empty>],[null, null, null], [null, null, null]]);
 
+//add recipe for Mold Bag of Cement
+//the graphics need to be redone later
+recipes.addShaped(<contenttweaker:bagofcementshape>, [[<ore:craftingToolHardHammer>, null, <gregtech:meta_item_1:32300>],[null, null, null], [null, null, null]]);
+
+
+
 //remove electric rail
 recipes.remove(<railcraft:rail:5>);
 mods.jei.JEI.hide(<railcraft:rail:5>);

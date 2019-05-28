@@ -6,3 +6,5 @@ import mods.contenttweaker.Item;
 var railShape = VanillaFactory.createItem("railshape");
 railShape.register();
 
+var bagofcementshape = VanillaFactory.createItem("bagofcementshape");
+bagofcementshape.register();
