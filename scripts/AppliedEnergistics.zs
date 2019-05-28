@@ -2,11 +2,11 @@
 
 //Energy Acceptor
 recipes.remove(<appliedenergistics2:energy_acceptor>);
-recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<ore:plateTitanium>, <ore:stickTitanium>, <ore:plateTitanium>],[<ore:stickTitanium>, <ore:crystalFluix>, <ore:stickTitanium>], [<ore:plateTitanium>, <ore:stickTitanium>, <ore:plateTitanium>]]);
+recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<ore:plateTitanium>, <ore:cableGtHexTitanium>, <ore:plateTitanium>],[<ore:cableGtHexTitanium>, <ore:crystalFluix>, <ore:cableGtHexTitanium>], [<ore:plateTitanium>, <ore:cableGtHexTitanium>, <ore:plateTitanium>]]);
 
 //ME Controller
 recipes.remove(<appliedenergistics2:controller>);
-recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smooth_sky_stone_block>, <gregtech:metal_casing:6>, <appliedenergistics2:smooth_sky_stone_block>],[<gregtech:turbine_casing:2>, <appliedenergistics2:energy_acceptor>, <gregtech:turbine_casing:2>], [<appliedenergistics2:smooth_sky_stone_block>, <gregtech:metal_casing:6>, <appliedenergistics2:smooth_sky_stone_block>]]);
+recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smooth_sky_stone_block>, <gregtech:metal_casing:7>, <appliedenergistics2:smooth_sky_stone_block>],[<gregtech:machine:754>, <appliedenergistics2:energy_acceptor>, <gregtech:machine:754>], [<appliedenergistics2:smooth_sky_stone_block>, <gregtech:metal_casing:7>, <appliedenergistics2:smooth_sky_stone_block>]]);
 
 //1k ME Storage Component
 recipes.remove(<appliedenergistics2:material:35>);
