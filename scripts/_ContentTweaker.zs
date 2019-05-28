@@ -8,3 +8,6 @@ railShape.register();
 
 var bagofcementshape = VanillaFactory.createItem("bagofcementshape");
 bagofcementshape.register();
+
+var blankae2press = VanillaFactory.createItem("blankae2press");
+blankae2press.register();

@@ -66,7 +66,14 @@ recipes.addShaped(<appliedenergistics2:material:28>, [[<ore:plateDiamond>, <ore:
 recipes.remove(<appliedenergistics2:material:25>);
 recipes.addShaped(<appliedenergistics2:material:25>, [[<ore:plateGold>, <ore:plateStainlessSteel>, null],[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:23>, <ore:plateStainlessSteel>], [<ore:plateGold>, <ore:plateStainlessSteel>, null]]);
 
+//Create AE2 Blank Press
+recipes.addShaped(<contenttweaker:blankae2press>, [[null, <ore:craftingToolHardHammer>, null],[null, <ore:plateStainlessSteel>, null], [null, null, null]]);
 
+//AE2 Presses
+recipes.addShaped(<appliedenergistics2:material:13>, [[null, null, null],[null, <contenttweaker:blankae2press>, null], [<ore:craftingToolHardHammer>, null, null]]);
+recipes.addShaped(<appliedenergistics2:material:14>, [[null, null, null],[null, <contenttweaker:blankae2press>, null], [null, null, <ore:craftingToolHardHammer>]]);
+recipes.addShaped(<appliedenergistics2:material:15>, [[null, null, <ore:craftingToolHardHammer>],[null, <contenttweaker:blankae2press>, null], [null, null, null]]);
+recipes.addShaped(<appliedenergistics2:material:19>, [[<ore:craftingToolHardHammer>, null, null],[null, <contenttweaker:blankae2press>, null], [null, null, null]]);
 
 
 
