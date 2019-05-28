@@ -1,6 +1,7 @@
 //GT STUFFS
 import mods.gregtech.recipe.RecipeMap;
 val forming_press = RecipeMap.getByName("forming_press");
+val fluid_solidifier as RecipeMap = RecipeMap.getByName("fluid_solidifier");
 
 //Personal Worldspike
 recipes.remove(<railcraft:cart_worldspike_personal>);
@@ -37,11 +38,21 @@ mods.jei.JEI.hide(<minecraft:golden_rail>);
 //add recipe for Forming Press Shape Rail
 recipes.addShaped(<contenttweaker:railshape>, [[<ore:craftingToolWireCutter>, null, <metaitem:shape.empty>],[null, null, null], [null, null, null]]);
 
+//remove bag of cement recipe
+recipes.remove(<railcraft:concrete>);
+
 //add recipe for Mold Bag of Cement
 //the graphics need to be redone later
 recipes.addShaped(<contenttweaker:bagofcementshape>, [[<ore:craftingToolHardHammer>, null, <gregtech:meta_item_1:32300>],[null, null, null], [null, null, null]]);
 
-
+//fluid solidifier Bag of Cement recipe
+fluid_solidifier.recipeBuilder()
+	.notConsumable(<contenttweaker:bagofcementshape>)
+	.fluidInputs([<liquid:concrete> * 1296])
+	.outputs(<railcraft:concrete> * 2)
+	.duration(75)
+	.EUt(4)
+	.buildAndRegister();
 
 //remove electric rail
 recipes.remove(<railcraft:rail:5>);
