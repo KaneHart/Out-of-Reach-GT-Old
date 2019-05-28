@@ -2,6 +2,13 @@
 import mods.gregtech.recipe.RecipeMap;
 val forming_press = RecipeMap.getByName("forming_press");
 
+//Personal Worldspike
+recipes.remove(<railcraft:cart_worldspike_personal>);
+recipes.remove(<railcraft:worldspike:2>);
+mods.jei.JEI.hide(<railcraft:worldspike:2>);
+//Personal Worldspike MV Level
+recipes.addShaped(<railcraft:cart_worldspike_personal>, [[<ore:ingotAluminium>, <gregtech:meta_item_1:15219>, <ore:ingotAluminium>],[<ore:ingotAluminium>, <ore:ingotAluminium>, <ore:ingotAluminium>], [<stevescarts:modulecomponents:23>, null, <stevescarts:modulecomponents:23>]]);
+
 //Remove Booster Rails
 recipes.remove(<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_strap_iron", kit: "railcraft_booster"}}));
 mods.jei.JEI.hide(<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_strap_iron", kit: "railcraft_booster"}}));
@@ -21,6 +28,9 @@ recipes.remove(<railcraft:track_kit:2>.withTag({railcraft: {kit: "railcraft_boos
 mods.jei.JEI.hide(<railcraft:track_kit:2>.withTag({railcraft: {kit: "railcraft_booster"}}));
 recipes.remove(<minecraft:golden_rail>);
 mods.jei.JEI.hide(<minecraft:golden_rail>);
+
+//add recipe for Forming Press Shape Rail
+recipes.addShaped(<contenttweaker:railshape>, [[<ore:craftingToolWireCutter>, null, <metaitem:shape.empty>],[null, null, null], [null, null, null]]);
 
 //remove electric rail
 recipes.remove(<railcraft:rail:5>);
