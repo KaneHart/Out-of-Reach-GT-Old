@@ -2,6 +2,7 @@
 import mods.gregtech.recipe.RecipeMap;
 val forming_press = RecipeMap.getByName("forming_press");
 val fluid_solidifier as RecipeMap = RecipeMap.getByName("fluid_solidifier");
+val assembler = RecipeMap.getByName("assembler");
 
 //Personal Worldspike
 recipes.remove(<railcraft:cart_worldspike_personal>);
@@ -53,6 +54,29 @@ fluid_solidifier.recipeBuilder()
 	.duration(75)
 	.EUt(4)
 	.buildAndRegister();
+	
+//Stone Tie / Reinforced Concrete Recipes
+//Stone Tie
+recipes.remove(<railcraft:tie:1>);
+assembler.recipeBuilder()
+  .inputs(<railcraft:concrete> * 2, <railcraft:rebar> * 1)
+  .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
+  .fluidInputs([<liquid:water> * 250])  
+  .outputs(<railcraft:tie:1> * 1)
+  .duration(160)
+  .EUt(12)
+  .buildAndRegister(); 
+
+//Reinforced Concrete
+recipes.remove(<railcraft:reinforced_concrete:8>);
+assembler.recipeBuilder()
+  .inputs(<railcraft:concrete> * 4, <railcraft:rebar> * 4)
+  .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
+  .fluidInputs([<liquid:water> * 1000])  
+  .outputs(<railcraft:reinforced_concrete:8> * 8)
+  .duration(320)
+  .EUt(16)
+  .buildAndRegister(); 
 
 //remove electric rail
 recipes.remove(<railcraft:rail:5>);
