@@ -10,19 +10,37 @@ recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smoot
 
 //1k ME Storage Component
 recipes.remove(<appliedenergistics2:material:35>);
-recipes.addShaped(<appliedenergistics2:material:35>, [[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:22>, <gregtech:meta_item_2:16237>],[<appliedenergistics2:material>, <gregtech:meta_item_2:32488>, <appliedenergistics2:material>], [<gregtech:meta_item_2:16237>, <appliedenergistics2:material>, <gregtech:meta_item_2:16237>]]);
+recipes.addShaped(<appliedenergistics2:material:35>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:22>, <ore:wireFineRedAlloy>],[<ore:crystalCertusQuartz>, <ore:circuitBasic>, <ore:crystalCertusQuartz>], [<ore:wireFineRedAlloy>, <ore:crystalCertusQuartz>, <ore:wireFineRedAlloy>]]);
 
 //4k ME Storage Component
 recipes.remove(<appliedenergistics2:material:36>);
-recipes.addShaped(<appliedenergistics2:material:36>, [[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:23>, <gregtech:meta_item_2:16237>],[<appliedenergistics2:material:35>, <gregtech:meta_item_2:32490>, <appliedenergistics2:material:35>], [<gregtech:meta_item_2:16237>, <appliedenergistics2:material:35>, <gregtech:meta_item_2:16237>]]);
+recipes.addShaped(<appliedenergistics2:material:36>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:35>, <ore:circuitGood>, <appliedenergistics2:material:35>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:35>, <ore:wireFineRedAlloy>]]);
 
 //16k ME Storage Component
 recipes.remove(<appliedenergistics2:material:37>);
-recipes.addShaped(<appliedenergistics2:material:37>, [[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:23>, <gregtech:meta_item_2:16237>],[<appliedenergistics2:material:36>, <gregtech:meta_item_2:32491>, <appliedenergistics2:material:36>], [<gregtech:meta_item_2:16237>, <appliedenergistics2:material:36>, <gregtech:meta_item_2:16237>]]);
+recipes.addShaped(<appliedenergistics2:material:37>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:36>, <ore:circuitAdvanced>, <appliedenergistics2:material:36>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:36>, <ore:wireFineRedAlloy>]]);
 
 //64k ME Storage Component
 recipes.remove(<appliedenergistics2:material:38>);
-recipes.addShaped(<appliedenergistics2:material:38>, [[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:23>, <gregtech:meta_item_2:16237>],[<appliedenergistics2:material:37>, <gregtech:meta_item_2:32493>, <appliedenergistics2:material:37>], [<gregtech:meta_item_2:16237>, <appliedenergistics2:material:37>, <gregtech:meta_item_2:16237>]]);
+recipes.addShaped(<appliedenergistics2:material:38>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:37>, <ore:circuitExtreme>, <appliedenergistics2:material:37>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:37>, <ore:wireFineRedAlloy>]]);
+
+//1k ME Fluid Storage Component
+recipes.remove(<appliedenergistics2:material:54>);
+recipes.addShaped(<appliedenergistics2:material:54>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:22>, <ore:wireFineAluminium>],[<ore:crystalCertusQuartz>, <ore:circuitBasic>, <ore:crystalCertusQuartz>], [<ore:wireFineAluminium>, <ore:crystalCertusQuartz>, <ore:wireFineAluminium>]]);
+
+//4k ME Fluid Storage Component
+recipes.remove(<appliedenergistics2:material:55>);
+recipes.addShaped(<appliedenergistics2:material:55>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:54>, <ore:circuitGood>, <appliedenergistics2:material:54>], [<ore:wireFineAluminium>, <appliedenergistics2:material:54>, <ore:wireFineAluminium>]]);
+
+//16k ME Fluid Storage Component
+recipes.remove(<appliedenergistics2:material:56>);
+recipes.addShaped(<appliedenergistics2:material:56>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:55>, <ore:circuitAdvanced>, <appliedenergistics2:material:55>], [<ore:wireFineAluminium>, <appliedenergistics2:material:55>, <ore:wireFineAluminium>]]);
+
+//64k ME Fluid Storage Component
+recipes.remove(<appliedenergistics2:material:57>);
+recipes.addShaped(<appliedenergistics2:material:57>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:56>, <ore:circuitExtreme>, <appliedenergistics2:material:56>], [<ore:wireFineAluminium>, <appliedenergistics2:material:56>, <ore:wireFineAluminium>]]);
+
+
 
 //ME Storage Housing
 recipes.remove(<appliedenergistics2:material:39>);
