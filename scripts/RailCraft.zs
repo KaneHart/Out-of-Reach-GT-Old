@@ -99,11 +99,28 @@ recipes.remove(<railcraft:rail:1>);
 forming_press.recipeBuilder()
     .inputs(<ore:ingotGold> * 3, <ore:ingotIron> * 3, <ore:dustRedstone> * 3)
     .notConsumable(<contenttweaker:railshape>)
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
     .outputs(<railcraft:rail:1> * 8)
     .EUt(16)
     .duration(300)
     .buildAndRegister();
+    
+    
+//Reinforced Rail
+//remove the rail
+recipes.remove(<railcraft:rail:4>);
+
+//add the new recipes
+forming_press.recipeBuilder()
+    .inputs(<ore:ingotSteel> * 6, <ore:dustObsidian> * 6 )
+    .notConsumable(<contenttweaker:railshape>)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 4}))
+    .outputs(<railcraft:rail:4> * 8)
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+    
+
 
 
 //H.S. Rail
@@ -114,7 +131,7 @@ recipes.remove(<railcraft:rail:3>);
 forming_press.recipeBuilder()
     .inputs(<ore:ingotSteel> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
     .notConsumable(<contenttweaker:railshape>)
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
     .outputs(<railcraft:rail:3> * 8)
     .EUt(32)
     .duration(600)
@@ -123,7 +140,7 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<ore:ingotAluminium> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
     .notConsumable(<contenttweaker:railshape>)
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
     .outputs(<railcraft:rail:3> * 12)
     .EUt(64)
     .duration(600)
@@ -132,7 +149,7 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<ore:ingotStainlessSteel> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
     .notConsumable(<contenttweaker:railshape>)
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
     .outputs(<railcraft:rail:3> * 18)
     .EUt(128)
     .duration(600)
@@ -141,7 +158,7 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<ore:ingotTitanium> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
     .notConsumable(<contenttweaker:railshape>)
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
     .outputs(<railcraft:rail:3> * 32)
     .EUt(512)
     .duration(600)
@@ -150,7 +167,7 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<ore:ingotTungstenSteel> * 6, <minecraft:gold_ingot> *6, <minecraft:blaze_powder> * 6 )
     .notConsumable(<contenttweaker:railshape>)
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
     .outputs(<railcraft:rail:3> * 48)
     .EUt(2048)
     .duration(600)
