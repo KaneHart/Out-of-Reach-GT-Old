@@ -9,6 +9,11 @@ mods.jei.JEI.hide(<railcraft:worldspike:2>);
 //Personal Worldspike MV Level
 recipes.addShaped(<railcraft:cart_worldspike_personal>, [[<ore:ingotAluminium>, <gregtech:meta_item_1:15219>, <ore:ingotAluminium>],[<ore:ingotAluminium>, <ore:ingotAluminium>, <ore:ingotAluminium>], [<stevescarts:modulecomponents:23>, null, <stevescarts:modulecomponents:23>]]);
 
+//Added Track Parts in... The recipe vanished and their needed lol. Removed also incase comes back.
+recipes.remove(<railcraft:track_parts>);
+recipes.addShaped(<railcraft:track_parts>, [[<ore:ingotSteel>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>],[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotSteel>]]);
+
+
 //Remove Booster Rails
 recipes.remove(<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_strap_iron", kit: "railcraft_booster"}}));
 mods.jei.JEI.hide(<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_strap_iron", kit: "railcraft_booster"}}));
