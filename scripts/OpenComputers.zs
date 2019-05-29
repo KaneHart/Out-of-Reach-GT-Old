@@ -61,3 +61,19 @@ recipes.addShaped(<opencomputers:keyboard>, [[null, <ore:oc:cable>, null],[<ore:
 //Motion Sensor
 recipes.remove(<opencomputers:motionsensor>);
 recipes.addShaped(<opencomputers:motionsensor>, [[<ore:plateStainlessSteel>, <gregtech:meta_item_1:32692>, <ore:plateStainlessSteel>],[<gregtech:meta_item_1:32692>, <ore:oc:cpu2>, <gregtech:meta_item_1:32692>], [<ore:plateStainlessSteel>, <gregtech:meta_item_2:32448>, <ore:plateStainlessSteel>]]);
+
+//Power Conveter
+recipes.remove(<opencomputers:powerconverter>);
+recipes.addShaped(<opencomputers:powerconverter>, [[<ore:plateAluminium>, <ore:oc:cable>, <ore:plateAluminium>],[<ore:cableGtDoubleAnnealedCopper>, <ore:circuitGood>, <ore:cableGtDoubleAnnealedCopper>], [<ore:plateAluminium>, <gregtech:meta_item_2:32448>, <ore:plateAluminium>]]);
+
+//Power Distributor
+recipes.remove(<opencomputers:powerdistributor>);
+recipes.addShaped(<opencomputers:powerdistributor>, [[<ore:plateAluminium>, <ore:cableGtDoubleAnnealedCopper>, <ore:plateAluminium>],[<ore:oc:cable>, <ore:circuitGood>, <ore:oc:cable>], [<ore:plateAluminium>, <gregtech:meta_item_2:32448>, <ore:plateAluminium>]]);
+
+//Printer
+recipes.remove(<opencomputers:printer>);
+recipes.addShaped(<opencomputers:printer>, [[<ore:plateTitanium>, <ore:blockHopper>, <ore:plateTitanium>],[<gregtech:meta_item_1:32643>, <ore:circuitExtreme>, <gregtech:meta_item_1:32643>], [<ore:plateTitanium>, <gregtech:meta_item_2:32444>, <ore:plateTitanium>]]);
+
+//Raid
+recipes.remove(<opencomputers:raid>);
+recipes.addShaped(<opencomputers:raid>, [[<ore:plateTitanium>, <ore:oc:cpu3>, <ore:plateTitanium>],[<ore:oc:ram1>, <ore:oc:diskDrive>, <ore:oc:ram1>], [<ore:plateTitanium>, <ore:circuitAdvanced>, <ore:plateTitanium>]]);
