@@ -1,5 +1,15 @@
 //AE2 Will be HV/EV Level using Titianium.
 
+//remove some dusts
+recipes.remove(<appliedenergistics2:material:51>);
+mods.jei.JEI.hide(<appliedenergistics2:material:51>);
+recipes.remove(<appliedenergistics2:material:49>);
+mods.jei.JEI.hide(<appliedenergistics2:material:49>);
+recipes.remove(<appliedenergistics2:material:3>);
+mods.jei.JEI.hide(<appliedenergistics2:material:3>);
+recipes.remove(<appliedenergistics2:material:2>);
+mods.jei.JEI.hide(<appliedenergistics2:material:2>);
+
 //Energy Acceptor
 recipes.remove(<appliedenergistics2:energy_acceptor>);
 recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<ore:plateTitanium>, <ore:cableGtHexTitanium>, <ore:plateTitanium>],[<ore:cableGtHexTitanium>, <ore:crystalFluix>, <ore:cableGtHexTitanium>], [<ore:plateTitanium>, <ore:cableGtHexTitanium>, <ore:plateTitanium>]]);
@@ -92,6 +102,9 @@ recipes.addShaped(<appliedenergistics2:security_station>, [[<ore:ingotStainlessS
 recipes.remove(<appliedenergistics2:chest>);
 recipes.addShaped(<appliedenergistics2:chest>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:part:380>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:part:16>, <ironchest:iron_chest:2>, <appliedenergistics2:part:16>], [<ore:ingotStainlessSteel>, <ore:crystalPureFluix>, <ore:ingotStainlessSteel>]]);
 
+//
+recipes.remove(<appliedenergistics2:portable_cell>);
+mods.jei.JEI.hide(<appliedenergistics2:portable_cell>);
 
 //Remove & Hide Temp all Crafting AE2 Stuff till better recipes can be made in the way future.
 recipes.remove(<appliedenergistics2:part:300>);
