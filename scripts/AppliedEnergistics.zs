@@ -42,6 +42,7 @@ recipes.addShaped(<appliedenergistics2:material:57>, [[<ore:wireFineAluminium>, 
 
 
 
+
 //ME Storage Housing
 recipes.remove(<appliedenergistics2:material:39>);
 recipes.addShaped(<appliedenergistics2:material:39>, [[<appliedenergistics2:quartz_glass>, <ore:wireFineRedAlloy>, <appliedenergistics2:quartz_glass>],[<ore:wireFineRedAlloy>, null, <ore:wireFineRedAlloy>], [<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>]]);
@@ -75,7 +76,21 @@ recipes.addShaped(<appliedenergistics2:material:14>, [[null, null, null],[null, 
 recipes.addShaped(<appliedenergistics2:material:15>, [[null, null, <ore:craftingToolHardHammer>],[null, <contenttweaker:blankae2press>, null], [null, null, null]]);
 recipes.addShaped(<appliedenergistics2:material:19>, [[<ore:craftingToolHardHammer>, null, null],[null, <contenttweaker:blankae2press>, null], [null, null, null]]);
 
+//Energy Cell
+recipes.remove(<appliedenergistics2:energy_cell>);
+recipes.addShaped(<appliedenergistics2:energy_cell>, [[<ore:crystalCertusQuartz>, <metaitem:battery.re.hv.sodium>, <ore:crystalCertusQuartz>],[<metaitem:battery.re.hv.sodium>, <gregtech:machine:744>, <metaitem:battery.re.hv.sodium>], [<ore:crystalCertusQuartz>, <metaitem:battery.re.hv.sodium>, <ore:crystalCertusQuartz>]]);
 
+//Crystal Growth Accelerator
+recipes.remove(<appliedenergistics2:quartz_growth_accelerator>);
+recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>, [[<ore:ingotStainlessSteel>, <appliedenergistics2:part:16>, <ore:ingotStainlessSteel>],[<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:ingotStainlessSteel>, <appliedenergistics2:part:16>, <ore:ingotStainlessSteel>]]);
+
+//Security Station
+recipes.remove(<appliedenergistics2:security_station>);
+recipes.addShaped(<appliedenergistics2:security_station>, [[<ore:ingotStainlessSteel>, <appliedenergistics2:chest>, <ore:ingotStainlessSteel>],[<appliedenergistics2:part:16>, <appliedenergistics2:material:37>, <appliedenergistics2:part:16>], [<ore:ingotStainlessSteel>, <appliedenergistics2:material:24>, <ore:ingotStainlessSteel>]]);
+
+//ME Chest
+recipes.remove(<appliedenergistics2:chest>);
+recipes.addShaped(<appliedenergistics2:chest>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:part:380>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:part:16>, <ironchest:iron_chest:2>, <appliedenergistics2:part:16>], [<ore:ingotStainlessSteel>, <ore:crystalPureFluix>, <ore:ingotStainlessSteel>]]);
 
 
 //Remove & Hide Temp all Crafting AE2 Stuff till better recipes can be made in the way future.
