@@ -42,5 +42,22 @@ recipes.addShaped(<opencomputers:case3>, [[<ore:plateTitanium>, <ore:circuitExtr
 recipes.remove(<opencomputers:diskdrive>);
 recipes.addShaped(<opencomputers:diskdrive>, [[<ore:plateAluminium>, <ore:circuitGood>, <ore:plateAluminium>],[<gregtech:meta_item_1:32641>, <ore:stickAluminium>, null], [<ore:plateAluminium>, <gregtech:meta_item_2:32448>, <ore:plateAluminium>]]);
 
+//Geolyzer
+recipes.remove(<opencomputers:geolyzer>);
+recipes.addShaped(<opencomputers:geolyzer>, [[<ore:plateTitanium>, <minecraft:compass>, <ore:plateTitanium>],[<stevescarts:modulecomponents:45>, <ore:circuitExtreme>, <stevescarts:modulecomponents:45>], [<ore:plateTitanium>, <gregtech:meta_item_2:32444>, <ore:plateTitanium>]]);
 
+//Hologram Projector Tier 1
+recipes.remove(<opencomputers:hologram1>);
+recipes.addShaped(<opencomputers:hologram1>, [[<ore:circuitGood>, <ore:paneGlassColorless>, <ore:circuitGood>],[<gregtech:meta_item_2:32448>, <opencomputers:material:29>, <gregtech:meta_item_2:32448>], [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
 
+//Hologram Projector Tier 2
+recipes.remove(<opencomputers:hologram2>);
+recipes.addShaped(<opencomputers:hologram2>, [[<ore:circuitAdvanced>, <ore:paneGlassColorless>, <ore:circuitAdvanced>],[<gregtech:meta_item_2:32448>, <minecraft:diamond>, <gregtech:meta_item_2:32448>], [<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
+
+//keyboard
+recipes.remove(<opencomputers:keyboard>);
+recipes.addShaped(<opencomputers:keyboard>, [[null, <ore:oc:cable>, null],[<ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>], [<ore:oc:materialButtonGroup>, <ore:oc:materialArrowKey>, <ore:oc:materialNumPad>]]);
+
+//Motion Sensor
+recipes.remove(<opencomputers:motionsensor>);
+recipes.addShaped(<opencomputers:motionsensor>, [[<ore:plateStainlessSteel>, <gregtech:meta_item_1:32692>, <ore:plateStainlessSteel>],[<gregtech:meta_item_1:32692>, <ore:oc:cpu2>, <gregtech:meta_item_1:32692>], [<ore:plateStainlessSteel>, <gregtech:meta_item_2:32448>, <ore:plateStainlessSteel>]]);
