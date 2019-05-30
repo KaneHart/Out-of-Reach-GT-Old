@@ -26,50 +26,50 @@ recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smoot
 
 //1k ME Storage Component
 recipes.remove(<appliedenergistics2:material:35>);
-recipes.addShaped(<appliedenergistics2:material:35>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:22>, <ore:wireFineRedAlloy>],[<ore:crystalCertusQuartz>, <ore:circuitBasic>, <ore:crystalCertusQuartz>], [<ore:wireFineRedAlloy>, <ore:crystalCertusQuartz>, <ore:wireFineRedAlloy>]]);
+recipes.addShaped(<appliedenergistics2:material:35>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:22>, <ore:wireFineRedAlloy>],[<ore:crystalCertusQuartz>, <ore:circuitAdvanced>, <ore:crystalCertusQuartz>], [<ore:wireFineRedAlloy>, <ore:crystalCertusQuartz>, <ore:wireFineRedAlloy>]]);
 
 //4k ME Storage Component
 recipes.remove(<appliedenergistics2:material:36>);
-recipes.addShaped(<appliedenergistics2:material:36>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:35>, <ore:circuitGood>, <appliedenergistics2:material:35>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:35>, <ore:wireFineRedAlloy>]]);
+recipes.addShaped(<appliedenergistics2:material:36>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:35>, <ore:circuitExtreme>, <appliedenergistics2:material:35>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:35>, <ore:wireFineRedAlloy>]]);
 
 //16k ME Storage Component
 recipes.remove(<appliedenergistics2:material:37>);
-recipes.addShaped(<appliedenergistics2:material:37>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:36>, <ore:circuitAdvanced>, <appliedenergistics2:material:36>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:36>, <ore:wireFineRedAlloy>]]);
+recipes.addShaped(<appliedenergistics2:material:37>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:36>, <ore:circuitElite>, <appliedenergistics2:material:36>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:36>, <ore:wireFineRedAlloy>]]);
 
 //64k ME Storage Component
 recipes.remove(<appliedenergistics2:material:38>);
-recipes.addShaped(<appliedenergistics2:material:38>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:37>, <ore:circuitExtreme>, <appliedenergistics2:material:37>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:37>, <ore:wireFineRedAlloy>]]);
+recipes.addShaped(<appliedenergistics2:material:38>, [[<ore:wireFineRedAlloy>, <appliedenergistics2:material:23>, <ore:wireFineRedAlloy>],[<appliedenergistics2:material:37>, <ore:circuitMaster>, <appliedenergistics2:material:37>], [<ore:wireFineRedAlloy>, <appliedenergistics2:material:37>, <ore:wireFineRedAlloy>]]);
 
 //1k ME Fluid Storage Component
 recipes.remove(<appliedenergistics2:material:54>);
-recipes.addShaped(<appliedenergistics2:material:54>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:22>, <ore:wireFineAluminium>],[<ore:crystalCertusQuartz>, <ore:circuitBasic>, <ore:crystalCertusQuartz>], [<ore:wireFineAluminium>, <ore:crystalCertusQuartz>, <ore:wireFineAluminium>]]);
+recipes.addShaped(<appliedenergistics2:material:54>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:22>, <ore:wireFineAluminium>],[<ore:crystalCertusQuartz>, <ore:circuitAdvanced>, <ore:crystalCertusQuartz>], [<ore:wireFineAluminium>, <ore:crystalCertusQuartz>, <ore:wireFineAluminium>]]);
 
 //4k ME Fluid Storage Component
 recipes.remove(<appliedenergistics2:material:55>);
-recipes.addShaped(<appliedenergistics2:material:55>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:54>, <ore:circuitGood>, <appliedenergistics2:material:54>], [<ore:wireFineAluminium>, <appliedenergistics2:material:54>, <ore:wireFineAluminium>]]);
+recipes.addShaped(<appliedenergistics2:material:55>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:54>, <ore:circuitExtreme>, <appliedenergistics2:material:54>], [<ore:wireFineAluminium>, <appliedenergistics2:material:54>, <ore:wireFineAluminium>]]);
 
 //16k ME Fluid Storage Component
 recipes.remove(<appliedenergistics2:material:56>);
-recipes.addShaped(<appliedenergistics2:material:56>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:55>, <ore:circuitAdvanced>, <appliedenergistics2:material:55>], [<ore:wireFineAluminium>, <appliedenergistics2:material:55>, <ore:wireFineAluminium>]]);
+recipes.addShaped(<appliedenergistics2:material:56>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:55>, <ore:circuitElite>, <appliedenergistics2:material:55>], [<ore:wireFineAluminium>, <appliedenergistics2:material:55>, <ore:wireFineAluminium>]]);
 
 //64k ME Fluid Storage Component
 recipes.remove(<appliedenergistics2:material:57>);
-recipes.addShaped(<appliedenergistics2:material:57>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:56>, <ore:circuitExtreme>, <appliedenergistics2:material:56>], [<ore:wireFineAluminium>, <appliedenergistics2:material:56>, <ore:wireFineAluminium>]]);
+recipes.addShaped(<appliedenergistics2:material:57>, [[<ore:wireFineAluminium>, <appliedenergistics2:material:23>, <ore:wireFineAluminium>],[<appliedenergistics2:material:56>, <ore:circuitMaster>, <appliedenergistics2:material:56>], [<ore:wireFineAluminium>, <appliedenergistics2:material:56>, <ore:wireFineAluminium>]]);
 
 
 
 
 //ME Storage Housing
 recipes.remove(<appliedenergistics2:material:39>);
-recipes.addShaped(<appliedenergistics2:material:39>, [[<appliedenergistics2:quartz_glass>, <ore:wireFineRedAlloy>, <appliedenergistics2:quartz_glass>],[<ore:wireFineRedAlloy>, null, <ore:wireFineRedAlloy>], [<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<appliedenergistics2:material:39>, [[<appliedenergistics2:quartz_glass>, <ore:wireFineRedAlloy>, <appliedenergistics2:quartz_glass>],[<ore:wireFineRedAlloy>, null, <ore:wireFineRedAlloy>], [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
 
 //Inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
-recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:plateStainlessSteel>, <minecraft:sticky_piston>, <ore:plateStainlessSteel>],[<ore:crystalFluix>, null, <ore:plateStainlessSteel>], [<ore:plateStainlessSteel>, <minecraft:sticky_piston>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:plateTitanium>, <minecraft:sticky_piston>, <ore:plateTitanium>],[<ore:crystalFluix>, null, <ore:plateTitanium>], [<ore:plateTitanium>, <minecraft:sticky_piston>, <ore:plateTitanium>]]);
 
 //Charger
 recipes.remove(<appliedenergistics2:charger>);
-recipes.addShaped(<appliedenergistics2:charger>, [[<ore:plateStainlessSteel>, <ore:crystalFluix>, <ore:plateStainlessSteel>],[<ore:plateStainlessSteel>, null, null], [<ore:plateStainlessSteel>, <ore:crystalFluix>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<appliedenergistics2:charger>, [[<ore:plateTitanium>, <ore:crystalFluix>, <ore:plateTitanium>],[<ore:plateTitanium>, null, null], [<ore:plateTitanium>, <ore:crystalFluix>, <ore:plateTitanium>]]);
 
 //vibration chamber Furance to make AE2 Power. Not needed of course...
 recipes.remove(<appliedenergistics2:vibration_chamber>);
@@ -77,14 +77,14 @@ mods.jei.JEI.hide(<appliedenergistics2:vibration_chamber>);
 
 //Advanced Card
 recipes.remove(<appliedenergistics2:material:28>);
-recipes.addShaped(<appliedenergistics2:material:28>, [[<ore:plateDiamond>, <ore:plateStainlessSteel>, null],[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:23>, <ore:plateStainlessSteel>], [<ore:plateDiamond>, <ore:plateStainlessSteel>, null]]);
+recipes.addShaped(<appliedenergistics2:material:28>, [[<ore:plateDiamond>, <ore:plateTitanium>, null],[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:23>, <ore:plateTitanium>], [<ore:plateDiamond>, <ore:plateTitanium>, null]]);
 
 //Basic Card
 recipes.remove(<appliedenergistics2:material:25>);
-recipes.addShaped(<appliedenergistics2:material:25>, [[<ore:plateGold>, <ore:plateStainlessSteel>, null],[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:23>, <ore:plateStainlessSteel>], [<ore:plateGold>, <ore:plateStainlessSteel>, null]]);
+recipes.addShaped(<appliedenergistics2:material:25>, [[<ore:plateGold>, <ore:plateTitanium>, null],[<gregtech:meta_item_2:16237>, <appliedenergistics2:material:23>, <ore:plateTitanium>], [<ore:plateGold>, <ore:plateTitanium>, null]]);
 
 //Create AE2 Blank Press
-recipes.addShaped(<contenttweaker:blankae2press>, [[null, <ore:craftingToolHardHammer>, null],[null, <ore:plateStainlessSteel>, null], [null, null, null]]);
+recipes.addShaped(<contenttweaker:blankae2press>, [[null, <ore:craftingToolHardHammer>, null],[null, <ore:plateTitanium>, null], [null, null, null]]);
 
 //AE2 Presses
 recipes.addShaped(<appliedenergistics2:material:13>, [[null, null, null],[null, <contenttweaker:blankae2press>, null], [<ore:craftingToolHardHammer>, null, null]]);
@@ -98,15 +98,15 @@ recipes.addShaped(<appliedenergistics2:energy_cell>, [[<ore:crystalCertusQuartz>
 
 //Crystal Growth Accelerator
 recipes.remove(<appliedenergistics2:quartz_growth_accelerator>);
-recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>, [[<ore:plateStainlessSteel>, <appliedenergistics2:part:16>, <ore:plateStainlessSteel>],[<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:plateStainlessSteel>, <appliedenergistics2:part:16>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>, [[<ore:plateTitanium>, <appliedenergistics2:part:16>, <ore:plateTitanium>],[<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:plateTitanium>, <appliedenergistics2:part:16>, <ore:plateTitanium>]]);
 
 //Security Station
 recipes.remove(<appliedenergistics2:security_station>);
-recipes.addShaped(<appliedenergistics2:security_station>, [[<ore:plateStainlessSteel>, <appliedenergistics2:chest>, <ore:plateStainlessSteel>],[<appliedenergistics2:part:16>, <appliedenergistics2:material:37>, <appliedenergistics2:part:16>], [<ore:plateStainlessSteel>, <appliedenergistics2:material:24>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<appliedenergistics2:security_station>, [[<ore:plateTitanium>, <appliedenergistics2:chest>, <ore:plateTitanium>],[<appliedenergistics2:part:16>, <appliedenergistics2:material:37>, <appliedenergistics2:part:16>], [<ore:plateTitanium>, <appliedenergistics2:material:24>, <ore:plateTitanium>]]);
 
 //ME Chest
 recipes.remove(<appliedenergistics2:chest>);
-recipes.addShaped(<appliedenergistics2:chest>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:part:380>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:part:16>, <ironchest:iron_chest:2>, <appliedenergistics2:part:16>], [<ore:plateStainlessSteel>, <ore:crystalPureFluix>, <ore:plateStainlessSteel>]]);
+recipes.addShaped(<appliedenergistics2:chest>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:part:380>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:part:16>, <ironchest:iron_chest:2>, <appliedenergistics2:part:16>], [<ore:plateTitanium>, <ore:crystalPureFluix>, <ore:plateTitanium>]]);
 
 //Wireless Receiver
 recipes.remove(<appliedenergistics2:material:41>);
