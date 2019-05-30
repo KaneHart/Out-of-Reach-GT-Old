@@ -25,15 +25,15 @@ recipes.remove(<opencomputers:adapter>);
 recipes.addShaped(<opencomputers:adapter>, [[<ore:plateAluminium>, <ore:oc:cable>, <ore:plateAluminium>],[<ore:oc:cable>, <ore:circuitGood>, <ore:oc:cable>], [<ore:plateAluminium>, <gregtech:meta_item_2:32448>, <ore:plateAluminium>]]);
 
 //Cable Moved to OC Recipe Handler via configs
-recipes.remove(<opencomputers:cable>);
-assembler.recipeBuilder()
-  .inputs(<ore:wireFineRedAlloy> * 4, <ore:cableGtDoubleGold>)
-  .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 5}))
-  .fluidInputs([<liquid:rubber> * 144])  
-  .outputs(<opencomputers:cable> * 4)
-  .duration(160)
-  .EUt(12)
-  .buildAndRegister(); 
+//recipes.remove(<opencomputers:cable>);
+//assembler.recipeBuilder()
+//  .inputs(<ore:wireFineRedAlloy> * 4, <ore:cableGtDoubleGold>)
+//  .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 5}))
+//  .fluidInputs([<liquid:rubber> * 144])  
+//  .outputs(<opencomputers:cable> * 4)
+//  .duration(160)
+//  .EUt(12)
+//  .buildAndRegister(); 
 
 
 //Capacitor
