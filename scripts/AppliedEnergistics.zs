@@ -102,9 +102,26 @@ recipes.addShaped(<appliedenergistics2:security_station>, [[<ore:ingotStainlessS
 recipes.remove(<appliedenergistics2:chest>);
 recipes.addShaped(<appliedenergistics2:chest>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:part:380>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:part:16>, <ironchest:iron_chest:2>, <appliedenergistics2:part:16>], [<ore:ingotStainlessSteel>, <ore:crystalPureFluix>, <ore:ingotStainlessSteel>]]);
 
-//
+//Wireless Receiver
+recipes.remove(<appliedenergistics2:material:41>);
+recipes.addShaped(<appliedenergistics2:material:41>, [[null, <ore:pearlFluix>, null],[<ore:plateTitanium>, <ore:circuitExtreme>, <ore:plateTitanium>], [null, <ore:plateTitanium>, null]]);
+
+//Portable Cell
 recipes.remove(<appliedenergistics2:portable_cell>);
 mods.jei.JEI.hide(<appliedenergistics2:portable_cell>);
+
+//Fluix Pearl
+recipes.remove(<appliedenergistics2:material:9>);
+recipes.addShaped(<appliedenergistics2:material:9>, [[<ore:dustFluix>, <ore:crystalFluix>, <ore:dustFluix>],[<ore:crystalFluix>, <stevescarts:modulecomponents:45>, <ore:crystalFluix>], [<ore:dustFluix>, <ore:crystalFluix>, <ore:dustFluix>]]);
+
+//ME Quantum Link Chamber
+recipes.remove(<appliedenergistics2:quantum_link>);
+recipes.addShaped(<appliedenergistics2:quantum_link>, [[<appliedenergistics2:quartz_glass>, <ore:pearlFluix>, <appliedenergistics2:quartz_glass>],[<ore:pearlFluix>, <ore:circuitMaster>, <ore:pearlFluix>], [<appliedenergistics2:quartz_glass>, <ore:pearlFluix>, <appliedenergistics2:quartz_glass>]]);
+
+//ME Quantum Ring
+recipes.remove(<appliedenergistics2:quantum_ring>);
+recipes.addShaped(<appliedenergistics2:quantum_ring>, [[<ore:plateChrome>, <gregtech:meta_item_1:32695>, <ore:plateChrome>],[<ore:circuitMaster>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:part:76>], [<ore:plateChrome>, <gregtech:meta_item_1:32695>, <ore:plateChrome>]]);
+
 
 //Remove & Hide Temp all Crafting AE2 Stuff till better recipes can be made in the way future.
 recipes.remove(<appliedenergistics2:part:300>);
