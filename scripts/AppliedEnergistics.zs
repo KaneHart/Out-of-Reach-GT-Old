@@ -122,6 +122,22 @@ recipes.addShaped(<appliedenergistics2:quantum_link>, [[<appliedenergistics2:qua
 recipes.remove(<appliedenergistics2:quantum_ring>);
 recipes.addShaped(<appliedenergistics2:quantum_ring>, [[<ore:plateChrome>, <gregtech:meta_item_1:32695>, <ore:plateChrome>],[<ore:circuitMaster>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:part:76>], [<ore:plateChrome>, <gregtech:meta_item_1:32695>, <ore:plateChrome>]]);
 
+//ME IO Port
+recipes.remove(<appliedenergistics2:io_port>);
+recipes.addShaped(<appliedenergistics2:io_port>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:drive>, <appliedenergistics2:part:16>, <appliedenergistics2:drive>], [<ore:plateTitanium>, <ore:circuitExtreme>, <ore:plateTitanium>]]);
+
+//ME Drive
+recipes.remove(<appliedenergistics2:drive>);
+recipes.addShaped(<appliedenergistics2:drive>, [[<ore:plateTitanium>, <ore:circuitExtreme>, <ore:plateTitanium>],[<appliedenergistics2:part:16>, <appliedenergistics2:material:24>, <appliedenergistics2:part:16>], [<ore:plateTitanium>, <ore:circuitExtreme>, <ore:plateTitanium>]]);
+
+//Matter Condenser
+recipes.remove(<appliedenergistics2:condenser>);
+recipes.addShaped(<appliedenergistics2:condenser>, [[<ore:plateTitanium>, <appliedenergistics2:quartz_glass>, <ore:plateTitanium>],[<appliedenergistics2:quartz_glass>, <ore:circuitElite>, <appliedenergistics2:quartz_glass>], [<ore:plateTitanium>, <appliedenergistics2:quartz_glass>, <ore:plateTitanium>]]);
+
+//Cell Workbench
+recipes.remove(<appliedenergistics2:cell_workbench>);
+recipes.addShaped(<appliedenergistics2:cell_workbench>, [[<ore:wool>, <ore:circuitExtreme>, <ore:wool>],[<ore:plateTitanium>, <ironchest:iron_chest:2>, <ore:plateTitanium>], [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
+
 
 //Remove & Hide Temp all Crafting AE2 Stuff till better recipes can be made in the way future.
 recipes.remove(<appliedenergistics2:part:300>);
