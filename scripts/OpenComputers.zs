@@ -1,6 +1,12 @@
 //Robots / Drones are set at LuV Age... We can adjust them but for now Higher less issues lol
 //Normal OC stuff will be MV.
 
+//gt crap
+import mods.gregtech.recipe.RecipeMap;
+val assembler = RecipeMap.getByName("assembler");
+
+
+
 //Remove OC Endstone Recipe
 recipes.remove(<opencomputers:endstone>);
 mods.jei.JEI.hide(<opencomputers:endstone>);
@@ -18,13 +24,21 @@ recipes.addShaped(<opencomputers:assembler>, [[<ore:plateChrome>, <gregtech:mach
 recipes.remove(<opencomputers:adapter>);
 recipes.addShaped(<opencomputers:adapter>, [[<ore:plateAluminium>, <ore:oc:cable>, <ore:plateAluminium>],[<ore:oc:cable>, <ore:circuitGood>, <ore:oc:cable>], [<ore:plateAluminium>, <gregtech:meta_item_2:32448>, <ore:plateAluminium>]]);
 
-//Cable
-recipes.remove(<opencomputers:cable:11250603>);
-recipes.addShaped(<opencomputers:cable:11250603> * 4, [[<ore:plateRubber>, <ore:wireFineRedAlloy>, <ore:plateRubber>],[<ore:wireFineRedAlloy>, <ore:cableGtDoubleGold>, <ore:wireFineRedAlloy>], [<ore:plateRubber>, <ore:wireFineRedAlloy>, <ore:plateRubber>]]);
+//Cable Moved to OC Recipe Handler via configs
+recipes.remove(<opencomputers:cable>);
+assembler.recipeBuilder()
+  .inputs(<ore:wireFineRedAlloy> * 4, <ore:cableGtDoubleGold>)
+  .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 5}))
+  .fluidInputs([<liquid:rubber> * 144])  
+  .outputs(<opencomputers:cable> * 4)
+  .duration(160)
+  .EUt(12)
+  .buildAndRegister(); 
+
 
 //Capacitor
 recipes.remove(<opencomputers:capacitor>);
-recipes.addShaped(<opencomputers:cable:11250603> * 4, [[<ore:plateRubber>, <ore:wireFineRedAlloy>, <ore:plateRubber>],[<ore:wireFineRedAlloy>, <ore:cableGtDoubleGold>, <ore:wireFineRedAlloy>], [<ore:plateRubber>, <ore:wireFineRedAlloy>, <ore:plateRubber>]]);
+recipes.addShaped(<opencomputers:capacitor> * 4, [[<ore:plateRubber>, <ore:wireFineRedAlloy>, <ore:plateRubber>],[<ore:wireFineRedAlloy>, <ore:cableGtDoubleGold>, <ore:wireFineRedAlloy>], [<ore:plateRubber>, <ore:wireFineRedAlloy>, <ore:plateRubber>]]);
 
 //Computer Case Tier 1
 recipes.remove(<opencomputers:case1>);
