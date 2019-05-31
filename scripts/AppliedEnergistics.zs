@@ -245,7 +245,12 @@ recipes.remove(<appliedenergistics2:part:241>);
 recipes.addShaped(<appliedenergistics2:part:241>, [[null, null, null],[<ore:plateLapis>, <appliedenergistics2:material:44>, <ore:plateLapis>], [<ore:ingotTitanium>, <minecraft:sticky_piston>, <ore:ingotTitanium>]]);
 
 //ME Import Bus
+recipes.remove(<appliedenergistics2:part:240>);
+recipes.addShaped(<appliedenergistics2:part:240>, [[null, null, null],[null, <appliedenergistics2:material:44>, null], [<ore:ingotTitanium>, <minecraft:sticky_piston>, <ore:ingotTitanium>]]);
 
+//Illuminated Panel
+recipes.remove(<appliedenergistics2:part:180>);
+recipes.addShaped(<appliedenergistics2:part:180>, [[null, <gregtech:meta_item_2:32441>, <appliedenergistics2:quartz_glass>],[<ore:ingotTitanium>, <ore:wireFineRedAlloy>, <appliedenergistics2:quartz_glass>], [null, <gregtech:meta_item_2:32441>, <appliedenergistics2:quartz_glass>]]);
 
 
 //Remove & Hide Temp all Crafting AE2 Stuff till better recipes can be made in the way future.
