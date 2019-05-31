@@ -1,4 +1,24 @@
-//AE2 Will be HV/EV Level using Titianium.
+//AE2 Will be EV Level and Up Starting with Titanium
+
+//GT Junk
+import mods.gregtech.recipe.RecipeMap;
+val macerator = RecipeMap.getByName("macerator");
+
+//Fluix Crystal to Dust
+macerator.recipeBuilder()
+	.inputs(<appliedenergistics2:material:7>)
+	.outputs(<appliedenergistics2:material:8>)
+	.duration(160)
+	.EUt(2048)
+	.buildAndRegister();
+	
+//Sky Stone to Dust
+macerator.recipeBuilder()
+	.inputs(<appliedenergistics2:sky_stone_block>)
+	.outputs(<appliedenergistics2:material:45>)
+	.duration(320)
+	.EUt(4096)
+	.buildAndRegister();
 
 //remove some dusts
 recipes.remove(<appliedenergistics2:material:51>);
@@ -9,6 +29,10 @@ recipes.remove(<appliedenergistics2:material:3>);
 mods.jei.JEI.hide(<appliedenergistics2:material:3>);
 recipes.remove(<appliedenergistics2:material:2>);
 mods.jei.JEI.hide(<appliedenergistics2:material:2>);
+recipes.remove(<appliedenergistics2:material:46>);
+mods.jei.JEI.hide(<appliedenergistics2:material:46>);
+
+
 
 //creative items removed
 recipes.remove(<appliedenergistics2:creative_energy_cell>);
@@ -110,7 +134,7 @@ recipes.addShaped(<appliedenergistics2:chest>, [[<appliedenergistics2:quartz_gla
 
 //Wireless Receiver
 recipes.remove(<appliedenergistics2:material:41>);
-recipes.addShaped(<appliedenergistics2:material:41>, [[null, <ore:pearlFluix>, null],[<ore:plateTitanium>, <ore:circuitExtreme>, <ore:plateTitanium>], [null, <ore:plateTitanium>, null]]);
+recipes.addShaped(<appliedenergistics2:material:41>, [[null, <ore:pearlFluix>, null],[<ore:plateChrome>, <ore:circuitMaster>, <ore:plateChrome>], [null, <ore:plateChrome>, null]]);
 
 //Portable Cell
 recipes.remove(<appliedenergistics2:portable_cell>);
@@ -183,6 +207,22 @@ recipes.addShaped(<appliedenergistics2:fluid_storage_cell_16k>, [[<appliedenergi
 //64K ME Fluid Storage Cell
 recipes.remove(<appliedenergistics2:fluid_storage_cell_64k>);
 recipes.addShaped(<appliedenergistics2:fluid_storage_cell_64k>, [[<appliedenergistics2:material:39>, <appliedenergistics2:material:57>, null],[null, null, null], [null, null, null]]);
+
+//Wireless Booster
+recipes.remove(<appliedenergistics2:material:42>);
+recipes.addShaped(<appliedenergistics2:material:42>, [[null, null, null],[<gregtech:meta_item_1:32695>, <gregtech:meta_item_1:32685>, <gregtech:meta_item_1:32695>], [<ore:plateChrome>, <ore:plateChrome>, <ore:plateChrome>]]);
+
+//Biometric Card
+recipes.remove(<appliedenergistics2:biometric_card>);
+recipes.addShaped(<appliedenergistics2:biometric_card>, [[null, null, null],[<appliedenergistics2:material:24>, <ore:plateTitanium>, <ore:plateTitanium>], [<ore:plateGold>, <ore:wireFineRedAlloy>, <ore:plateGold>]]);
+
+//Memory Card
+recipes.remove(<appliedenergistics2:memory_card>);
+recipes.addShaped(<appliedenergistics2:memory_card>, [[null, null, null],[<appliedenergistics2:material:23>, <ore:plateTitanium>, <ore:plateTitanium>], [<ore:plateGold>, <ore:wireFineRedAlloy>, <ore:plateGold>]]);
+
+//View Cell
+recipes.remove(<appliedenergistics2:view_cell>);
+recipes.addShaped(<appliedenergistics2:view_cell>, [[<appliedenergistics2:material:39>, <ore:crystalPureCertusQuartz>, null],[null, null, null], [null, null, null]]);
 
 
 //Remove & Hide Temp all Crafting AE2 Stuff till better recipes can be made in the way future.
