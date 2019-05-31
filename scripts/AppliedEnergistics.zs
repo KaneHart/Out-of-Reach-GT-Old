@@ -224,6 +224,29 @@ recipes.addShaped(<appliedenergistics2:memory_card>, [[null, null, null],[<appli
 recipes.remove(<appliedenergistics2:view_cell>);
 recipes.addShaped(<appliedenergistics2:view_cell>, [[<appliedenergistics2:material:39>, <ore:crystalPureCertusQuartz>, null],[null, null, null], [null, null, null]]);
 
+//Charged Staff
+recipes.remove(<appliedenergistics2:charged_staff>);
+recipes.addShaped(<appliedenergistics2:charged_staff>, [[<appliedenergistics2:material:1>, null, null],[null, <ore:ingotTitanium>, null], [null, null, <ore:ingotTitanium>]]);
+
+//Color Applicator
+recipes.remove(<appliedenergistics2:color_applicator>);
+recipes.addShaped(<appliedenergistics2:color_applicator>, [[<appliedenergistics2:material:43>, <ore:ingotTitanium>, null],[<ore:ingotTitanium>, <appliedenergistics2:material:36>, null], [null, null, <appliedenergistics2:energy_cell>]]);
+
+//ME Export Bus
+recipes.remove(<appliedenergistics2:part:260>);
+recipes.addShaped(<appliedenergistics2:part:260>, [[null, null, null],[<ore:ingotTitanium>, <appliedenergistics2:material:43>, <ore:ingotTitanium>], [null, <minecraft:piston>, null]]);
+
+//ME Fluid Bus
+recipes.remove(<appliedenergistics2:part:261>);
+recipes.addShaped(<appliedenergistics2:part:261>, [[null, null, null],[<ore:ingotTitanium>, <appliedenergistics2:material:43>, <ore:ingotTitanium>], [<ore:plateLapis>, <minecraft:piston>, <ore:plateLapis>]]);
+
+//ME Fluid Import Bus
+recipes.remove(<appliedenergistics2:part:241>);
+recipes.addShaped(<appliedenergistics2:part:241>, [[null, null, null],[<ore:plateLapis>, <appliedenergistics2:material:44>, <ore:plateLapis>], [<ore:ingotTitanium>, <minecraft:sticky_piston>, <ore:ingotTitanium>]]);
+
+//ME Import Bus
+
+
 
 //Remove & Hide Temp all Crafting AE2 Stuff till better recipes can be made in the way future.
 recipes.remove(<appliedenergistics2:part:300>);
@@ -240,6 +263,7 @@ recipes.remove(<appliedenergistics2:crafting_storage_16k>);
 recipes.remove(<appliedenergistics2:crafting_storage_64k>);
 recipes.remove(<appliedenergistics2:crafting_monitor>);
 recipes.remove(<appliedenergistics2:material:53>);
+recipes.remove(<appliedenergistics2:material:52>);
 
 mods.jei.JEI.hide(<appliedenergistics2:part:300>);
 mods.jei.JEI.hide(<appliedenergistics2:part:302>);
@@ -255,3 +279,4 @@ mods.jei.JEI.hide(<appliedenergistics2:crafting_storage_16k>);
 mods.jei.JEI.hide(<appliedenergistics2:crafting_storage_64k>);
 mods.jei.JEI.hide(<appliedenergistics2:crafting_monitor>);
 mods.jei.JEI.hide(<appliedenergistics2:material:53>);
+mods.jei.JEI.hide(<appliedenergistics2:material:52>);
